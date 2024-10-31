@@ -1,0 +1,22 @@
+fieldset{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#instruments{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#instruments input{    
+    transform: background-color 0.8s;
+}
+#instruments input:hover{
+    background-color: rgb(179, 181, 255);    
+}
+#text{
+    width: 100%;
+    height: 400px;
+    font-size: 20px;
+    
+}

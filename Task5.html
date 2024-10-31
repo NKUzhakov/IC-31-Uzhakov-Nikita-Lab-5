@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./TextProcessor.css">
+    <title>Завдання 5</title>
+</head>
+<header></header>
+<main>
+    <h1>Завдання 5.</h1>
+    <fieldset>
+        <caption>Текстовий редактор</caption>
+        <section id="instruments">
+            <input type="button" onclick="changeFontWeight();" id="bold" value="Жирний">
+            <input type="button" onclick="makeItalic()"        id="italic" value="Нахил">
+            <input type="button" onclick="underline()"         id="underline" value="Підкреслювання">
+            <input type="color"  onchange="changeColor()"      id="color">
+            <input type="button" onclick="changeShift()"       id="shift" value="Регістр">
+        </section> <br>
+        <textarea name="userText" id="text"></textarea>
+    </fieldset>
+
+    <input type="button" onclick="window.location.href='./index.html'"value="На головну">
+</main>
+<footer></footer>
+<script src="./Task5.js"></script>
+<body>
+    
+</body>
+</html>

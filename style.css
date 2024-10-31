@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width:30%;
+}
+
+#taskList{    
+    display: flex;
+    justify-content: space-around;    
+}
+#taskList li{
+    font-size: 20px;
+    flex:12.5%;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(171, 255, 176);
+}
