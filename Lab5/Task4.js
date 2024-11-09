@@ -17,10 +17,7 @@ else{
 
     bubbleSort(ResultArray);
     console.log(`2 Результат сортування: ${ResultArray}`);
-}
-    
-
-
+}  
 function getArray(nameOfArray){
     let userInpur = prompt(`Введіть 10 елементів Array${nameOfArray} через кому`);
     return userInpur.split(/ *, */);
@@ -39,17 +36,13 @@ function createArray(array1, array2){
     }
     return resultArray;
 }
-
 function bubbleSort(array){
     let arrayLength = array.length;
-    while(arrayLength--)
-        {
+    while(arrayLength--){
             let swapped = false;
             
-            for(let i = 0; i < arrayLength; i++)
-            {
-                if(array[i] > array[i + 1])
-                {
+            for(let i = 0; i < arrayLength; i++){
+                if(array[i] > array[i + 1]){
                     let tmp = array[i];
                     array[i] = array[i + 1];
                     array[i + 1] = tmp;
